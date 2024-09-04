@@ -21,22 +21,22 @@ public class ForecastFragment extends Fragment {
 //        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 //        view.setBackgroundColor(0x20FF0000);
 //        return view;
-        LinearLayout linearLayout = new LinearLayout(getActivity());
+        LinearLayout linearLayout = new LinearLayout(getContext());
         linearLayout.setOrientation(LinearLayout.VERTICAL);
         linearLayout.setPadding(20, 20, 20, 20);
-        linearLayout.setGravity(Gravity.CENTER);
+        linearLayout.setBackgroundColor(0x20FF0000);
 
-        TextView textView = new TextView(getActivity());
+        TextView textView = new TextView(getContext());
         textView.setText("Thursday");
         textView.setTextSize(30);
         textView.setPadding(0, 0, 0, 20);
 
-        ImageView imageView = new ImageView(getActivity());
+        ImageView imageView = new ImageView(getContext());
         imageView.setImageResource(R.drawable.cloudy);
 
         linearLayout.addView(textView);
         linearLayout.addView(imageView);
-
+        
         return linearLayout;
     }
 }
