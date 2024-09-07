@@ -8,31 +8,34 @@
     tools:context=".ForecastFragment"
     android:background="#f5f5f5"
     android:id="@+id/forecast">
-    <!-- Header layout -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#107de3">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:layout_margin="20sp"
-            android:textStyle="bold"
-            android:text="USTH Weather"
-            android:textColor="#f5f5f5"
-            tools:ignore="HardcodedText">
-        </TextView>
-    </LinearLayout>
+<!--    &lt;!&ndash; Header layout &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="#107de3">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="30sp"-->
+<!--            android:layout_margin="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="USTH Weather"-->
+<!--            android:textColor="#f5f5f5"-->
+<!--            tools:ignore="HardcodedText">-->
+<!--        </TextView>-->
+<!--    </LinearLayout>-->
 
     <!-- Big layout below header -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="20sp"
-        android:background="#bfe3d2"
-        android:orientation="vertical">
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#ebe1d5"
+        android:orientation="vertical"
+        android:layout_weight="2">
 
         <!-- Layout for Mon -->
         <LinearLayout
