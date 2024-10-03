@@ -15,4 +15,15 @@
     <string name="mostly_cloudy">mostly_cloudy</string>
     <string name="Sat">Sat</string>
     <string name="Sun">Sun</string>
+    <string name="partly_cloudy_n24c_31c">Partly Cloudy\n24C - 31C</string>
+    <string name="showers_n24c_30c">Showers\n24C - 30C</string>
+    <string name="rain_n22c_23c">Rain\n22C - 23C</string>
+    <string name="scattered_showers_n22c_27c">Scattered Showers\n22C - 27C</string>
+    <string name="mostly_cloudy_n22c_30c">Mostly Cloudy\n22C - 30C</string>
+    <string name="thunderstorms_n25c_28c">Thunderstorms\n25C - 28C</string>
+    <string name="scattered_thunderstorms_n24c_27c">Scattered Thunderstorms\n24C - 27C</string>
+    <string name="_12c_ncloudy">12C\nCloudy</string>
+    <string name="ha_noi">Ha Noi</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
 </resources>

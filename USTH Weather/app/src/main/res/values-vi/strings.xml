@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="usth_weather">USTH Weather</string>
+    <string name="mon">Thứ 2</string>
+    <string name="Mon">Thứ 2</string>
+    <string name="partly_cloudy">partly_cloudy</string>
+    <string name="Showers" />
+    <string name="Rain" />
+    <string name="Tue">Thứ 3</string>
+    <string name="Wed">Thứ 4</string>
+    <string name="Thu">Thứ 5</string>
+    <string name="Fri">Thứ 6</string>
+    <string name="mostly_cloudy">mostly_cloudy</string>
+    <string name="Sat">Thứ 7</string>
+    <string name="Sun">Chủ Nhật</string>
+    <string name="partly_cloudy_n24c_31c">Ít mây\n24C - 31C</string>
+    <string name="showers_n24c_30c">Mưa rào\n24C - 30C</string>
+    <string name="rain_n22c_23c">Mưa\n22C - 23C</string>
+    <string name="scattered_showers_n22c_27c">Mưa rải rác\n22C - 27C</string>
+    <string name="mostly_cloudy_n22c_30c">Nhiều mây\n22C - 30C</string>
+    <string name="thunderstorms_n25c_28c">Sấm sét\n25C - 28C</string>
+    <string name="scattered_thunderstorms_n24c_27c">Giông sét\n24C - 27C</string>
+    <string name="_12c_ncloudy">12C\nNhiều mây</string>
+    <string name="ha_noi">Hà Nội</string>
+</resources>
